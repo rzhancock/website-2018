@@ -1,0 +1,38 @@
+
+.word-reverse {
+  text-align: center;
+  background: #777;
+  height: auto;
+}
+
+
+.word-rev-title {
+  font-size: 2em;
+  color: white;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+.input {
+  height: auto;
+  width: 25%;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  border: 3px solid #444;
+  padding: 2px;
+}
+
+
+form > button {
+  display: inline-block;
+  background: #777;
+  color: #FFF;
+  font-size: 1.5em;
+  border: 0;
+  height: auto;
+  margin-left: 3px;
+  text-shadow: 2px 2px #555;
+  cursor: pointer;
+}
+
+

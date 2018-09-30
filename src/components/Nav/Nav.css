@@ -1,0 +1,48 @@
+
+.header {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.name {
+  margin: 0 auto;
+  text-decoration: none;
+  color:  #457CB0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.main-nav {
+  margin: .5em;
+  list-style: none;
+  
+  margin-top: 5px;
+}
+
+
+.main-nav a {
+  text-decoration: none;
+  margin: .5em;
+  color:  #5E748C;
+  font-size: 1.35em;
+  cursor: pointer;
+}
+
+.main-nav a:hover {
+  color: #718daa;
+}
+
+#blog-link {
+  cursor: not-allowed;
+}
+
+#blog-subscript {
+  font-size: 10px;
+  text-align: center;
+}
