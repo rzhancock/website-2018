@@ -6,14 +6,6 @@
   border-bottom: 3px #d8d8da solid;
 }
 
-.me {
-  max-width: 100px;
-  border-radius: 50%;
-  margin: 1em auto -.75em  auto;
-  border: 3px #457CB0 solid;
-  opacity:  ;
-}
-
 .name-wrapper {
   display: flex;
   justify-content: space-between;

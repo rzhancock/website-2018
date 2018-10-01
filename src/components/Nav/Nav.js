@@ -7,7 +7,7 @@ function Nav() {
 		return ( 
 			<header className="header">
 					<div className="name-wrapper">
-						<img src={Me} alt="Robert Hancock" className="me"/>
+						
 						<h1><a className="name" href="#">ROBERT HANCOCK</a></h1>
 					</div>
 					<nav>

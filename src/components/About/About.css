@@ -1,13 +1,45 @@
-
-.about-container {
-  font-family: sans-serif;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+.me {
+  max-width: 175px;
+  border-radius: 50%;
+  border: 3px #457CB0 solid;
+  margin-top: 1em;
 }
 
-.about {
-  display: flex;
-  justify-content: space-between;
+.about-container {
+  max-width: 1000px;
+	margin: 0 auto;
+}
+
+.about-h2 {	
+	font-family: 'Lato', sans-serif;
+  font-weight: 400;
+	font-size: 24px;
+	color:  #457CB0;
+}
+
+.about-content {
+	display: inline-flex;
+	align-items: center;
+}
+
+.about-content > p {
+	color:  #65686d;
+	line-height: 150%;
+}
+
+
+
+.about-p1 {
+}
+
+.about-p2 {
+	display: none;
+}
+
+.about-p3 {
+	display: none;
+}
+
+.read-more {
+	display: none;
 }
