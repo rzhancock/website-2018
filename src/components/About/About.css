@@ -1,7 +1,6 @@
 
-
 .about-container {
-  font-family: 'Montserrat', sans-serif;
+  font-family: sans-serif;
   margin: 0 auto;
   max-width: 1200px;
   padding-top: 1.5em;
@@ -11,9 +10,4 @@
 .about {
   display: flex;
   justify-content: space-between;
-}
-
-#me {
-	max-width: 50%;
-	border-radius: 50%;
 }

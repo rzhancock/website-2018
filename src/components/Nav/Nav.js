@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 import './Nav.css';
-import logo from './logo.png';
+import Me from './me.png';
+
 
 function Nav() {
 		return ( 
 			<header className="header">
 					<div className="name-wrapper">
-					<h1><a className="name" href="#">ROBERT HANCOCK</a></h1>
+						<img src={Me} alt="Robert Hancock" className="me"/>
+						<h1><a className="name" href="#">ROBERT HANCOCK</a></h1>
 					</div>
 					<nav>
 			     	  <ul className="main-nav">
 			     	  	<li><a>Skills</a></li>
 				        <li><a>Projects</a></li>
-						<li><a>History</a></li>
+						<li><a>Resume</a></li>
 						<li><a>Contact</a></li>
 						<li><a>
 							<span className="blog-link">Blog</span>
