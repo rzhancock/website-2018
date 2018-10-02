@@ -16,6 +16,7 @@
   font-family: 'Rock Salt', sans-serif;
   text-decoration: none;
   color:  #457CB0;
+  padding: 1.25em;
 }
 
 nav {
@@ -45,11 +46,6 @@ nav {
 
 .main-nav a:hover {
   color: #588bc0;
-}
-
-
-.blog-link {
-
 }
 
 .blog-link:hover {

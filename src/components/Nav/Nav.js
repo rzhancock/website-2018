@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Nav.css';
-import Me from './me.png';
 
 
 function Nav() {
@@ -8,7 +7,7 @@ function Nav() {
 			<header className="header">
 					<div className="name-wrapper">
 						
-						<h1><a className="name" href="#">ROBERT HANCOCK</a></h1>
+						<h1><a className="name" href="#">Robert Hancock</a></h1>
 					</div>
 					<nav>
 			     	  <ul className="main-nav">
