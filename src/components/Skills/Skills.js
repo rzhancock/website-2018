@@ -14,27 +14,32 @@ const Skills = () => {
 							<li>
 								HTML5
 							</li>
-							
 							<li>
 								CSS3
+							</li>
+							<li>
+								Bootstrap
+							</li>
+							<li>
+								WordPress
 							</li>
 							<li>
 								Javascript
 							</li>
 							<li>
+								jQuery
+							</li>
+							<li>
 								React.js
 							</li>
 							<li>
-								NPM
+								Node/NPM
 							</li>
 							<li>
-								Linux
+								Linux/LAMP
 							</li>
 							<li>
-								Git
-							</li>
-							<li>
-								Github
+								Git/Github
 							</li>
 						</ul>
 					

@@ -1,23 +1,32 @@
 .skills-container {
 	max-width: 1080px;
 	border-bottom: 3px #d8d8da solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills-header {
+	padding-left: 2em;
 }
 
 .skills-header > h3{
 	font-family: 'Arvo', sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 1.5em;
-	color:  #457CB0;
-	display: inline;
+	color: #65686d;
 }
 
 .skills-list {
-	display: inline-flex;
+	display: flex;
 	flex-wrap: wrap;
-	list-style: none;
+	list-style-type: none;
 }
 
 .skills-list li {
-	padding: 1em;
+	flex-basis: 15%;
+	padding: 1.1em;
 	text-decoration: none;
+	color: #457CB0; 
+	position: relative;
 }
