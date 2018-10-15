@@ -1,0 +1,43 @@
+.battle-wrapper {
+	margin-left: 2em;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #457CB0;
+}
+
+.battle-title {
+	color: #30567b;
+	padding: 0 15px;
+}
+
+.battle-description {
+	margin-top: 0em;
+	color: #46484c;
+	padding: 0 15px;
+}
+
+.battle-description > a {
+	text-decoration: none;
+	color: #C2392A;
+}
+
+.demo {
+	color: #6a96bf;
+	text-decoration: none;
+	padding: 0 15px;
+}
+
+.battle-images {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+.battle-images > img {
+	flex-basis: 49%;
+	min-width: 250px;
+	box-shadow: 0 0 9px -3px #6a96bf;
+	border-radius: 3px;
+}
