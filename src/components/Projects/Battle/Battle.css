@@ -3,18 +3,20 @@
 	display: flex;
 	flex-direction: column;
 	border-radius: 5px;
-	box-shadow: 0 0 5px #457CB0;
+	box-shadow: inset 0 0 3px #457CB0;
 }
 
 .battle-title {
 	color: #30567b;
 	padding: 0 15px;
+	margin: 15px 0;
 }
 
 .battle-description {
 	margin-top: 0em;
 	color: #46484c;
 	padding: 0 15px;
+	font-size: .85em;
 }
 
 .battle-description > a {
@@ -22,8 +24,9 @@
 	color: #C2392A;
 }
 
-.demo {
+.battle-demo {
 	color: #6a96bf;
+	font-weight: bold;
 	text-decoration: none;
 	padding: 0 15px;
 }
