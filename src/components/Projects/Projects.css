@@ -2,10 +2,11 @@
 	max-width: 1080px;
 	border-bottom: 3px #d8d8da solid;
 	padding-bottom: 2em;
+	margin: 0 2em;
 }
 
 .projects-header {
-	padding: 1em 0 1em 2em;
+	padding: 0;
 	padding-bottom: 0;
 }
 

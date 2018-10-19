@@ -1,25 +1,24 @@
-.battle-wrapper {
-	margin-bottom: 15px;
+.mern-wrapper {
 	display: flex;
 	flex-direction: column;
 	border-radius: 5px;
 	box-shadow: 0 0 5px #457CB0;
 }
 
-.battle-title {
+.mern-title {
 	color: #30567b;
 	padding: 0 15px;
 }
 
-.battle-description {
+.mern-description {
 	margin-top: 0em;
 	color: #46484c;
 	padding: 0 15px;
 }
 
-.battle-description > a {
+.mern-description > a {
 	text-decoration: none;
-	color: #C2392A;
+	color:  #468B92;
 }
 
 .demo {
@@ -28,14 +27,14 @@
 	padding: 0 15px;
 }
 
-.battle-images {
+.mern-images {
 	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 15px;
 }
 
-.battle-images > img {
+.mern-images > img {
 	flex-basis: 49%;
 	min-width: 250px;
 	box-shadow: 0 0 9px -3px #6a96bf;

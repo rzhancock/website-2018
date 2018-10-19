@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Battle from './Battle/Battle.js';
+import Mern from './Mern/Mern.js';
+
 import './Projects.css';
 
 
@@ -13,6 +15,7 @@ export default class extends Component {
 					</h3>
 				</div>
 				<Battle />
+				<Mern />
 		</section>
     );
   }
