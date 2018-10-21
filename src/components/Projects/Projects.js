@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Battle from './Battle/Battle.js';
 import Mern from './Mern/Mern.js';
+import StoneWillow from './StoneWillow/StoneWillow.js';
 
 import './Projects.css';
 
@@ -16,6 +17,7 @@ export default class extends Component {
 				</div>
 				<Battle />
 				<Mern />
+				<StoneWillow />
 		</section>
     );
   }

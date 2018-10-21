@@ -1,45 +1,45 @@
-.mern-wrapper {
+.stonewillow-wrapper {
 	display: flex;
 	flex-direction: column;
 	border-radius: 5px;
 	box-shadow: inset 0 0 3px #457CB0;
 }
 
-.mern-title {
+.stonewillow-title {
 	color: #30567b;
   padding: 0 15px;
   margin: 15px 0;
 }
 
-.mern-description {
+.stonewillow-description {
 	margin-top: 0em;
 	color: #46484c;
   padding: 0 15px;
   font-size: .85em;
 }
 
-.mern-description > a {
+.stonewillow-description > a {
 	text-decoration: none;
 	color:  #468B92;
 }
 
-.mern-demo {
+.stonewillow-demo {
   color: #6a96bf;
   font-weight: bold;
 	text-decoration: none;
 	padding: 0 15px;
 }
 
-.mern-images {
+.stonewillow-images {
 	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 15px;
 }
 
-.mern-images > img {
+.stonewillow-images > img {
 	flex-basis: 49%;
-  min-width: 250px;
-  box-shadow: 0 0 6px -3px #6a96bf;
+	min-width: 250px;
+	box-shadow: 0 0 6px -3px #6a96bf;
 	border-radius: 3px;
 }
