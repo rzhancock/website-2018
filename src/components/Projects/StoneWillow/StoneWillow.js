@@ -11,7 +11,10 @@ function StoneWillow() {
             <p className="stonewillow-description">
                A quick website I created for my grandma after she asked me to make some small changes to her gated community's SquareSpace website. Once I saw the existing site I had no choice but to upgrade it to a more professional and aesthetically pleasing template.
             </p>
-            <a href="https://stone-willow.com" target="_blank" className="stonewillow-demo">Go to site</a>
+            <p className="stonewillow-demo">
+            <a href="https://stone-willow.com" target="_blank">Go to Site</a> | <a href ="https://github.com/rzhancock/StoneWillow_website">GitHub</a>
+            </p>
+            
             <div className="stonewillow-images">
               <img src={before_jpg} alt="StoneWillow Before" className="before-jpg" />
               <img src={stonewillow_jpg} alt="StoneWillow After" className="stonewillow-jpg" />

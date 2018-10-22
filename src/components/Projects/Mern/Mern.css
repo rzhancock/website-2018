@@ -24,10 +24,18 @@
 }
 
 .mern-demo {
-  color: #6a96bf;
-  font-weight: bold;
+	color: #25415a;
+	font-weight: bold;
 	text-decoration: none;
-	padding: 0 15px;
+	padding-left: 15px;
+	margin: 0;
+}
+
+.mern-demo > a {
+	color: #2f6696;
+	text-decoration: none;
+	font-size: .85rem;
+	margin: 0;
 }
 
 .mern-images {

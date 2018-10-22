@@ -13,10 +13,10 @@
 }
 
 .battle-description {
-	margin-top: 0em;
+	margin-top: 0;
 	color: #46484c;
 	padding: 0 15px;
-	font-size: .85em;
+	font-size: .85rem;
 }
 
 .battle-description > a {
@@ -25,10 +25,18 @@
 }
 
 .battle-demo {
-	color: #6a96bf;
+	color: #25415a;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 0 15px;
+	padding-left: 15px;
+	margin: 0;
+}
+
+.battle-demo > a {
+	color: #2f6696;
+	text-decoration: none;
+	font-size: .85rem;
+	margin: 0;
 }
 
 .battle-images {
