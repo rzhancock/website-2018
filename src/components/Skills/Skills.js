@@ -7,7 +7,7 @@ const Skills = () => {
 
 						<div className="skills-header">
 							<h3>
-								Skills:
+								Skills
 							</h3>
 						</div>
 						<ul className="skills-list">

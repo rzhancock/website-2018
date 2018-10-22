@@ -1,4 +1,5 @@
 .mern-wrapper {
+  margin-bottom: 15px;
 	display: flex;
 	flex-direction: column;
 	border-radius: 5px;

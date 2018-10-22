@@ -9,10 +9,10 @@ function StoneWillow() {
           <div className="stonewillow-wrapper">
             <h4 className="stonewillow-title">Stone-Willow.com Community Website</h4>
             <p className="stonewillow-description">
-               A quick website I created for my grandma after she asked me to make some small changes to her gated community's SquareSpace website. Once I saw the existing site I had no choice but to upgrade it to a more professional and aesthetically pleasing template.
+               My grandma asked for help with some small updates to her gated community's website prior to a new advertizing campaign. Once I saw the existing site, I decided to update the entire site to a more professional template. The images below show the website <strong>before</strong> and <strong>after</strong>.
             </p>
             <p className="stonewillow-demo">
-            <a href="https://stone-willow.com" target="_blank">Go to Site</a> | <a href ="https://github.com/rzhancock/StoneWillow_website">GitHub</a>
+            <a href="https://stone-willow.com" target="_blank">Visit Site</a> | <a href ="https://github.com/rzhancock/StoneWillow_website">GitHub</a>
             </p>
             
             <div className="stonewillow-images">
