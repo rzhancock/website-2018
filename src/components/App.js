@@ -3,6 +3,7 @@ import Nav from './Nav/Nav.js';
 import About from './About/About.js';
 import Skills from './Skills/Skills.js';
 import Projects from './Projects/Projects.js';
+import Resume from './Resume/Resume.js';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <About />
         <Skills />
         <Projects />
+        <Resume />
       </div>
     )
   }

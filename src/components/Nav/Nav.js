@@ -13,14 +13,13 @@ function Nav() {
 			     	  <ul className="main-nav">
 			     	  	<li><a>Skills</a></li>
 				        <li><a>Projects</a></li>
-						<li><a>Resume</a></li>
-						<li><a>Contact</a></li>
-						<li><a>
-							<span className="blog-link">Blog</span>
-							<span className="blog-subscript">Coming Soon!</span>
-							</a>
-						</li>
-			      	  </ul>
+								<li><a>Resume</a></li>
+								<li><a>Contact</a></li>
+								<li><a>
+									<span className="blog-link">Blog</span>
+									<span className="blog-subscript">Coming Soon!</span>
+								</a></li>
+			      	</ul>
 					</nav>
 			</header>
 		)
