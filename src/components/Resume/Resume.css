@@ -1,35 +1,55 @@
 .resume-container {
   display: flex;
   flex-direction: column;
-  margin: 0 2rem;
+  flex-wrap: wrap;
   max-width: 1080px;
 	border-bottom: 3px #d8d8da solid;
   padding-bottom: 2rem;
 }
 
 .resume-header {
-	padding: 0;
-	margin: 0
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  
 }
 
 .resume-header > h3{
-  margin: 0;
-  margin-top: 2rem;
 	font-family: 'Arvo', sans-serif;
 	font-weight: 500;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	color: #65686d;
+}
+
+.download-resume {
+  font-family: 'Arvo', sans-serif;
+  text-decoration: none;
+  font-size: .85rem;
+  color: #65686d;
 }
 
 .resume-items {
   margin: 0;
+  margin-top: -2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.resume-item > h5 {
+
+.resume-item > a {
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2f6696;
+  text-decoration: none;
+}
+
+.resume-item > p {
+  margin-top: -.5em;
+  text-align: center;
   color: #25415a;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 import Me from './me.png';
 
-const About = () => {
+function About () {
 	return (
 		<div className="about-container">
 

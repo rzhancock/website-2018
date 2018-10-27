@@ -6,9 +6,6 @@
 	justify-content: center;
 }
 
-.skills-header {
-	padding-left: 2em;
-}
 
 .skills-header > h3{
 	font-family: 'Arvo', sans-serif;
@@ -25,7 +22,7 @@
 
 .skills-list li {
 	flex-basis: 15%;
-	padding: 1.1em;
+	padding: 1.18em;
 	text-decoration: none;
 	color: #457CB0; 
 	position: relative;
