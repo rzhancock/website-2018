@@ -9,24 +9,25 @@
 
 .resume-header {
   display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
-  
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
-.resume-header > h3{
-	font-family: 'Arvo', sans-serif;
-	font-weight: 500;
-	font-size: 1.5rem;
-	color: #65686d;
+.resume-header > a{
+	text-align: center;
+  font-family: 'Arvo', sans-serif;
+  font-weight: 500;
+  color: #65686d;
+  font-size: 1.25rem;
+  text-decoration: none;
 }
 
 .download-resume {
   font-family: 'Arvo', sans-serif;
   text-decoration: none;
-  font-size: .85rem;
   color: #65686d;
+  font-size: .85rem;
 }
 
 .resume-items {

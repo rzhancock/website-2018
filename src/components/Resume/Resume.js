@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FaDownload } from 'react-icons/fa';
+
 import resume from './Robert_Hancock.pdf';
 import './Resume.css';
 
@@ -8,10 +10,12 @@ function Resume() {
   	<section className="resume-container">
 
           <div className="resume-header">
-						<h3>
-							Resume
-						</h3>
-            <a  href={resume} target="_blank" alt="Download Resume" className="download-resume">Download PDF &#10515;</a>
+          <a  href={resume} target="_blank" alt="Download Resume" >
+              <h3>
+                Resume <span className="download-resume"><FaDownload /></span>
+              </h3>
+          </a>  
+              
 					</div>
             <div className="resume-items">
               <div className="resume-item">

@@ -4,6 +4,7 @@ import About from './About/About.js';
 import Skills from './Skills/Skills.js';
 import Projects from './Projects/Projects.js';
 import Resume from './Resume/Resume.js';
+import Contact from './Contact/Contact.js';
 import './App.css';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <Skills />
         <Projects />
         <Resume />
+        <Contact />
       </div>
     )
   }
