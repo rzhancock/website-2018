@@ -48,7 +48,8 @@
 
 .stonewillow-images > img {
 	flex-basis: 49%;
-	min-width: 250px;
+	max-width: 515px;
+	max-height: 320px;
 	box-shadow: 0 0 3px #6a6c6f;
 	border-radius: 3px;
 }

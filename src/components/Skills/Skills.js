@@ -10,6 +10,7 @@ const Skills = () => {
 								Skills
 							</h3>
 						</div>
+
 						<ul className="skills-list">
 							<li>
 								HTML5
@@ -42,6 +43,7 @@ const Skills = () => {
 								Git/Github
 							</li>
 						</ul>
+
 					
 		</div>
 	)

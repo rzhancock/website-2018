@@ -1,29 +1,30 @@
 .skills-container {
 	max-width: 1080px;
 	border-bottom: 3px #d8d8da solid;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
-
 .skills-header > h3{
+	text-align: center;
 	font-family: 'Arvo', sans-serif;
 	font-weight: 500;
 	font-size: 1.5em;
 	color: #65686d;
+	
 }
 
 .skills-list {
 	display: flex;
 	flex-wrap: wrap;
-	list-style-type: none;
+	list-style-type: inherit;
+	justify-content: space-between;
 }
 
 .skills-list li {
 	flex-basis: 15%;
-	padding: 1.18em;
+	margin: 1rem .5rem 1rem 1.5rem;
+	font-size: 1rem;
 	text-decoration: none;
 	color: #457CB0; 
 	position: relative;
+	font-weight: bold;
 }
