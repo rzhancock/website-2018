@@ -1,6 +1,7 @@
 .skills-container {
 	max-width: 1080px;
 	border-bottom: 3px #d8d8da solid;
+	margin-bottom: 2.5rem;
 }
 
 .skills-header > h3{
@@ -9,7 +10,7 @@
 	font-weight: 500;
 	font-size: 1.5em;
 	color: #65686d;
-	
+
 }
 
 .skills-list {

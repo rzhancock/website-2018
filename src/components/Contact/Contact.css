@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
   max-width: 1080px;
 	border-bottom: 3px #d8d8da solid;
-  padding-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .contact-header > h3{
@@ -14,21 +13,31 @@
   font-weight: 500;
   font-size: 1.5rem;
   color: #65686d;
+  margin-bottom: 2rem;
   }
 
 .contact-items {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
   text-decoration: none;
+  margin: 1.5rem;
+}
+
+.contact-icons {
+  font-size: 1.35em;
+  padding-right: 10px;
 }
 
 .contact-items > a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
 }
 
 
 .contact-buttons {
-  margin-top: 1rem;
+  margin-right: 1rem;
   font-size: 1.66rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -36,10 +45,7 @@
   color: #2f6696;
 }
 
-.contact-buttons > div {
-  display: block;
-  text-align: center;
-}
+
 
 
 

@@ -15,10 +15,6 @@ function Nav() {
 				        <li><a>Projects</a></li>
 								<li><a>Resume</a></li>
 								<li><a>Contact</a></li>
-								<li><a>
-									<span className="blog-link">Blog</span>
-									<span className="blog-subscript">Coming Soon!</span>
-								</a></li>
 			      	</ul>
 					</nav>
 			</header>

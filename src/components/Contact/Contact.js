@@ -15,17 +15,17 @@ function Contact() {
             <div className="contact-items">
 
               <a href="mailto:rzhancock@gmail.com" className="contact-buttons">
-                <div><FaEnvelopeSquare /></div>
+                <div className="contact-icons"><FaEnvelopeSquare /></div>
                 Email
               </a>
 
               <a href="https://www.linkedin.com/in/robertzhancock/" className="contact-buttons">
-                <div><FaLinkedin /></div>
+                <div className="contact-icons"><FaLinkedin /></div>
                 LinkedIn
               </a>
 
               <a href="https://www.linkedin.com/in/robertzhancock/" className="contact-buttons">
-                <div><FaGithub /></div>
+                <div className="contact-icons"><FaGithub /></div>
                 GitHub
               </a>
             </div>
