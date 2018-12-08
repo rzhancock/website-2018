@@ -10,13 +10,14 @@
 	color: #30567b;
 	padding: 0 15px;
 	margin: 15px 0;
+	font-size: 20px;
 }
 
 .battle-description {
 	margin-top: 0;
 	color: #46484c;
 	padding: 0 15px;
-	font-size: .85rem;
+	font-size: 18px;
 }
 
 .battle-description > a {
@@ -35,7 +36,7 @@
 .battle-demo > a {
 	color: #2f6696;
 	text-decoration: none;
-	font-size: .85rem;
+	font-size: 18px;
 	margin: 0;
 }
 

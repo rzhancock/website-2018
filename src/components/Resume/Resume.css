@@ -5,7 +5,7 @@
   max-width: 1080px;
 	border-bottom: 3px #d8d8da solid;
   padding-bottom: 2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .resume-header {
@@ -18,9 +18,8 @@
 .resume-header > a{
 	text-align: center;
   font-family: 'Arvo', sans-serif;
-  font-weight: 500;
   color: #65686d;
-  font-size: 1.25rem;
+  font-size: 28px;
   text-decoration: none;
 }
 
@@ -28,7 +27,7 @@
   font-family: 'Arvo', sans-serif;
   text-decoration: none;
   color: #65686d;
-  font-size: .85rem;
+  font-size: 22px;
 }
 
 .resume-items {
@@ -54,4 +53,5 @@
   margin-top: -.5em;
   text-align: center;
   color: #25415a;
+  font-size: 20px;
 }

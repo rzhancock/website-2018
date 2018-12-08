@@ -1,3 +1,7 @@
+h3 {
+  font-weight: normal;
+}
+
 .me {
   max-width: 175px;
   border-radius: 50%;
@@ -35,7 +39,7 @@
 }
 
 .about-content > p {
-	font-size: 1.25em;
+	font-size: 22px;
 	margin: 0 2em;
 	padding-top: 1em;
 	color:  #65686d;

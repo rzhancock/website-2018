@@ -17,6 +17,7 @@
   text-decoration: none;
   color:  #457CB0;
   padding: 1.25em;
+  font-size: 38px;
 }
 
 nav {
@@ -39,7 +40,7 @@ nav {
   margin-right: 1em;
   margin-left: 1em;
   color:  #7f8389;
-  font-size: 1.35em;
+  font-size: 26px;
   cursor: pointer;
   -webkit-transition: color .4s;
   transition: color .4s;

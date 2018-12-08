@@ -1,3 +1,8 @@
+a {
+  margin: 0;
+  padding: 0;
+}
+
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -10,8 +15,7 @@
 .contact-header > h3{
   text-align: center;
   font-family: 'Arvo', sans-serif;
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 28px;
   color: #65686d;
   margin-bottom: 2rem;
   }
@@ -25,8 +29,10 @@
 }
 
 .contact-icons {
-  font-size: 1.35em;
+  display: inline-block;
+  font-size: 40px;
   padding-right: 10px;
+  margin-bottom: -5px;
 }
 
 .contact-items > a {
@@ -38,7 +44,7 @@
 
 .contact-buttons {
   margin-right: 1rem;
-  font-size: 1.66rem;
+  font-size: 36px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-decoration: none;
