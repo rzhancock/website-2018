@@ -19,9 +19,9 @@ function Contact() {
                 Email
               </a>
 
-              <a href="https://www.linkedin.com/in/robertzhancock/" className="contact-buttons">
-                <div className="contact-icons"><FaLinkedin /></div>
-                LinkedIn
+              <a href="https://www.facebook.com/zelan.hancock" className="contact-buttons">
+                <div className="contact-icons"><FaFacebook /></div>
+                Facebook
               </a>
 
               <a href="https://www.github.com/rzhancock/" className="contact-buttons">
@@ -29,10 +29,11 @@ function Contact() {
                 GitHub
               </a>
 
-              <a href="https://www.facebook.com/zelan.hancock" className="contact-buttons">
-                <div className="contact-icons"><FaFacebook /></div>
-                Facebook
+              <a href="https://www.linkedin.com/in/robertzhancock/" className="contact-buttons">
+                <div className="contact-icons"><FaLinkedin /></div>
+                LinkedIn
               </a>
+
             </div>
 		</section>
   );

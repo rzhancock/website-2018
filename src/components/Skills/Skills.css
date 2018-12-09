@@ -21,7 +21,9 @@
 
 .skills-list li {
 	flex-basis: 15%;
-	margin: 1rem .5rem 1rem 1.5rem;
+	margin: .6rem;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
 	font-size: 20px;
 	text-decoration: none;
 	color: #457CB0; 

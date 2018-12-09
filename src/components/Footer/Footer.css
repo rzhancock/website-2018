@@ -1,0 +1,12 @@
+.footer-container {
+	max-width: 1080px;
+  border-bottom: 3px #d8d8da solid;
+}
+
+.footer-header > h3 {
+  text-align: center;
+	font-family: 'Arvo', sans-serif;
+	font-size: 25px;
+  color: #65686d;
+  vertical-align: middle;
+}
