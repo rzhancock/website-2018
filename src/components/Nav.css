@@ -1,0 +1,107 @@
+
+.header {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 3px #d8d8da solid;
+}
+
+
+.name {
+  font-family: 'Rock Salt', sans-serif;
+  text-decoration: none;
+  color:  #457CB0;
+  padding: 1.25em;
+  font-size: 38px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  list-style: none;
+}
+
+
+.main-nav li {
+  margin: auto 1.75rem auto .25rem;
+  text-decoration: none;
+  color:  #7f8389;
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+
+.main-nav a:hover {
+  color: #588bc0;
+}
+
+.blog-link:hover {
+  cursor: not-allowed;
+}
+
+.blog-subscript {
+  color: #55575b;
+  font-size: 11px;
+  display: block;
+}
+
+.blog-subscript:hover {
+
+  cursor: not-allowed;
+}
+
+@media only screen and (max-width : 678px) {
+  .main-nav li {
+    margin: auto 2.0rem auto 0;
+    font-size: 24px;
+  }
+
+
+}
+
+@media only screen and  (max-width : 556px) {
+  .main-nav li {
+    margin: auto 2.0rem auto 0;
+    font-size: 20px;
+  }
+
+  .name {
+    padding: 1rem;
+    font-size: 28px;
+    text-align: center;
+  }
+
+
+}
+
+@media only screen and  (max-width : 505px) {
+
+  .main-nav {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .main-nav li {
+    margin-top: .5rem;
+    font-size: 24px;
+  }
+
+  .name {
+    padding: 1rem;
+    padding-bottom: 0;
+    font-size: 28px;
+    text-align: center;
+  }
+
+
+}
+
