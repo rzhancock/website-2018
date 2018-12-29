@@ -54,3 +54,39 @@
 	box-shadow: 0 0 3px #6a6c6f;
 	border-radius: 3px;
 }
+
+/*Media Queries*/
+
+@media only screen and (max-width : 1080px) {
+	.mern-wrapper {
+		margin: 20px;
+	}
+}
+
+@media only screen and (max-width : 678px) {
+	.mern-wrapper {
+		text-align: center;
+		margin: 20px;
+	}
+
+	.mern-images {
+		flex-direction: column;
+		justify-content: center;
+		
+	}
+
+	.mern-images > img {
+		margin: 10px auto;
+		max-width: 412px;
+		max-height: 256px;
+	}
+
+}
+
+@media only screen and  (max-width : 600px) {
+	.mern-images > img {
+		margin: 10px auto;
+		max-width: 330px;
+		max-height: 205px;
+	}
+}

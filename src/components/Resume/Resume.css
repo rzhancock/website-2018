@@ -5,6 +5,7 @@
   max-width: 1080px;
 	border-bottom: 3px #d8d8da solid;
   padding-bottom: 2rem;
+  margin: auto 15px;
   margin-bottom: 2rem;
 }
 
@@ -12,7 +13,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 1rem;
+  margin-top: 0;
 }
 
 .resume-header > a{
@@ -54,4 +55,35 @@
   text-align: center;
   color: #5a5d62;
   font-size: 20px;
+}
+
+/*Media Queries*/
+
+
+@media only screen and (max-width : 815px) {
+  .resume-item > a {
+    font-size: 26px;
+  }
+  
+  .resume-item > p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and  (max-width : 660px) {
+  .resume-items {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .resume-item > a {
+    font-size: 26px;
+  }
+  
+  .resume-item > p {
+    margin-top: -.5em;
+    text-align: center;
+    color: #5a5d62;
+    font-size: 17px;
+  }
 }

@@ -53,6 +53,38 @@ a {
   color: #2f6696;
 }
 
+/*Media Queries*/
+
+
+@media only screen and (max-width : 920px) {
+  .contact-icons {
+    font-size: 32px;
+    padding: auto 12px;
+  }
+  
+  .contact-buttons {
+    margin-right: 1rem;
+    font-size: 29px;
+  }
+}
+
+@media only screen and  (max-width : 768px) {
+  .contact-items {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .contact-icons {
+    display: inline-block;
+    font-size: 32px;
+    margin-left: 2.25rem;
+  }
+  
+  .contact-buttons {
+    font-size: 29px;
+    padding-bottom: 20px;
+  }
+}
 
 
 

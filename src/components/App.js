@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import About from './About/About.js';
 import Skills from './Skills/Skills.js';
 import Projects from './Projects/Projects.js';
@@ -13,35 +15,6 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    
-    this.skills = React.createRef();
-    this.projects = React.createRef();
-    this.resume = React.createRef();
-    this.contact = React.createRef();
-    
-    this.scrollToSection = this.scrollToSection.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-  }
-  
-  scrollToSection(section) {
-    switch(section) {
-      case this.skills:
-        this.skills.current.scrollIntoView({behavior: 'smooth'});
-        break;
-      case this.projects:
-        this.projects.scrollIntoView({behavior: 'smooth'});
-        break;
-      case this.resume:
-        this.resume.scrollIntoView({behavior: 'smooth'});
-        break;
-      case this.contact:
-        this.section.scrollIntoView(this.contact, {behavior: 'smooth'});
-    }
-  }
-
-  handleClick(e){
-    e.preventDefault;
-    this.scrollToSection(e.ref);
   }
 
   render() {
@@ -54,18 +27,29 @@ class App extends Component {
 					</div>
 					<nav>
 			     	  <ul className="main-nav">
-			     	  	<li onClick={() => {this.handleClick(this.skills)}}>Skills</li>
-				        <li onClick={() => {this.scrollToSection(this.projects)}}>Projects</li>
-								<li onClick={() => {this.scrollToSection(this.resume)}}>Resume</li>
-								<li onClick={() => {this.scrollToSection(this.contact)}}>Contact</li>
+			     	  	<li>
+                   <Link
+                    activeClass="active"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                   > 
+                    Skills
+                   </Link>
+                </li>
+				        <li>Projects</li>
+								<li>Resume</li>
+								<li>Contact</li>
 			      	</ul>
 					</nav>
 			  </header>
         <About />
-        <Skills name="skills" ref={this.skills}/>
-        <Projects name="projects" ref={this.projects} />
-        <Resume name="resume" ref={this.resume} />
-        <Contact name="contact" ref={this.contact} />
+        <Skills id="skills" />
+        <Projects id="projects"  />
+        <Resume id="resume" />
+        <Contact id="contact" />
         <Footer />
       </div>
     )

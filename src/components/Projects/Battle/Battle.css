@@ -53,3 +53,39 @@
 	max-height: 320px;
 	box-shadow: 0 0 3px #6a6c6f;
 }
+
+/*Media Queries*/
+
+@media only screen and (max-width : 1080px) {
+	.battle-wrapper {
+		margin: 20px;
+	}
+}
+
+@media only screen and (max-width : 678px) {
+	.battle-wrapper {
+		text-align: center;
+		margin: 20px;
+	}
+
+	.battle-images {
+		flex-direction: column;
+		justify-content: center;
+		
+	}
+
+	.battle-images > img {
+		margin: 10px auto;
+		max-width: 412px;
+		max-height: 256px;
+	}
+
+}
+
+@media only screen and  (max-width : 600px) {
+	.battle-images > img {
+		margin: 10px auto;
+		max-width: 330px;
+		max-height: 205px;
+	}
+}

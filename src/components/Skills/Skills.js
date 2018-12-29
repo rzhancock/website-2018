@@ -1,9 +1,9 @@
 import React from 'react';
 import './Skills.css';
 
-const Skills = () => {
+const Skills = (id) => {
 	return (
-		<div className="skills-container">
+		<div className="skills-container" id={id}>
 
 						<div className="skills-header">
 							<h3>
