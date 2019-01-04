@@ -2,22 +2,22 @@ import React from 'react';
 import './Nav.css';
 
 
-const Nav = () => {
+const Nav = ({ onClick }) => {
 
-			
 
-		return ( 
+
+		return (
 			<header className="header">
 					<div className="name-wrapper">
-						
+
 						<h1><a className="name" href="#">Robert Hancock</a></h1>
 					</div>
 					<nav>
 			     	  <ul className="main-nav">
-			     	  	<li onClick={() => {this.scroll(this.props.refs.skills.current)}}>Skills</li>
-				        <li onClick={() => {this.scroll(this.refs.projects.current)}}>Projects</li>
-								<li onClick={() => {this.scroll(this.refs.resume.current)}}>Resume</li>
-								<li onClick={() => {this.scroll(this.refs.contact.current)}}>Contact</li>
+			     	  	<li onClick={onClick('skills')}>Skills</li>
+				        <li onClick={onClick('project')}>Projects</li>
+								<li onClick={onClick('resume')}>Resume</li>
+								<li onClick={onClick('contact')}>Contact</li>
 			      	</ul>
 					</nav>
 			</header>

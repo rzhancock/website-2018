@@ -3,7 +3,7 @@ import './Skills.css';
 
 const Skills = React.forwardRef((props, ref) => (
 
-			<section className="skills-container" ref={skills}>
+			<section className="skills-container" ref={ref}>
 
 							<div className="skills-header">
 								<h3>
@@ -44,7 +44,7 @@ const Skills = React.forwardRef((props, ref) => (
 								</li>
 							</ul>
 
-						
+
 			</section>
 		)
 );
