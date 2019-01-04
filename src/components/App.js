@@ -20,13 +20,21 @@ class App extends Component {
   this.resume = React.createRef();
   this.contact = React.createRef();
   }
-  
+
+  onNavClick = link => () => {
+    const top = this[link].current.offsetTop;
+    window.scrollTo({
+      top,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
 
   render() {
     console.log(this.skills);
     return (
       <div className="container">
-        <Nav />
+        <Nav onClick={this.onNavClick} />
         <About />
         <Skills ref={this.skills} />
         <Projects ref={this.projects}  />
