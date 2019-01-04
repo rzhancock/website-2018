@@ -2,6 +2,7 @@
 	max-width: 1080px;
 	border-bottom: 3px #d8d8da solid;
 	margin-bottom: 2.5rem;
+	margin-left: 2rem;
 }
 
 .skills-header > h3{
@@ -9,7 +10,8 @@
 	font-family: 'Arvo', sans-serif;
 	font-size: 28px;
 	color: #65686d;
-
+	margin-right: 1.5rem;
+	margin-bottom: 2.75rem;
 }
 
 .skills-list {

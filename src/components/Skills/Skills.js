@@ -1,52 +1,52 @@
 import React from 'react';
 import './Skills.css';
 
-const Skills = (id) => {
-	return (
-		<div className="skills-container" id={id}>
+const Skills = React.forwardRef((props, ref) => (
 
-						<div className="skills-header">
-							<h3>
-								Skills
-							</h3>
-						</div>
+			<section className="skills-container" ref={skills}>
 
-						<ul className="skills-list">
-							<li>
-								HTML5
-							</li>
-							<li>
-								CSS3
-							</li>
-							<li>
-								Bootstrap
-							</li>
-							<li>
-								WordPress
-							</li>
-							<li>
-								Javascript
-							</li>
-							<li>
-								jQuery
-							</li>
-							<li>
-								React.js
-							</li>
-							<li>
-								Node/NPM
-							</li>
-							<li>
-								Linux/LAMP
-							</li>
-							<li>
-								Git/Github
-							</li>
-						</ul>
+							<div className="skills-header">
+								<h3>
+									Skills
+								</h3>
+							</div>
 
-					
-		</div>
-	)
-}
+							<ul className="skills-list">
+								<li>
+									HTML5
+								</li>
+								<li>
+									CSS3
+								</li>
+								<li>
+									Bootstrap
+								</li>
+								<li>
+									WordPress
+								</li>
+								<li>
+									Javascript
+								</li>
+								<li>
+									jQuery
+								</li>
+								<li>
+									React.js
+								</li>
+								<li>
+									Node/NPM
+								</li>
+								<li>
+									Linux/LAMP
+								</li>
+								<li>
+									Git/Github
+								</li>
+							</ul>
+
+						
+			</section>
+		)
+);
 
 export default Skills;

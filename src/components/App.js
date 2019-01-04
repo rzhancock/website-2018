@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
 
+import Nav from './Nav/Nav.js';
 import About from './About/About.js';
 import Skills from './Skills/Skills.js';
 import Projects from './Projects/Projects.js';
@@ -8,48 +8,30 @@ import Resume from './Resume/Resume.js';
 import Contact from './Contact/Contact.js';
 import Footer from './Footer/Footer.js';
 import './App.css';
-import './Nav.css';
 
 
 class App extends Component {
 
   constructor(props) {
-    super(props);
+  super(props);
+
+  this.skills = React.createRef();
+  this.projects = React.createRef();
+  this.resume = React.createRef();
+  this.contact = React.createRef();
   }
+  
 
   render() {
+    console.log(this.skills);
     return (
       <div className="container">
-        <header className="header">
-					<div className="name-wrapper">
-						
-						<h1><a className="name" href="#">Robert Hancock</a></h1>
-					</div>
-					<nav>
-			     	  <ul className="main-nav">
-			     	  	<li>
-                   <Link
-                    activeClass="active"
-                    to="skills"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                   > 
-                    Skills
-                   </Link>
-                </li>
-				        <li>Projects</li>
-								<li>Resume</li>
-								<li>Contact</li>
-			      	</ul>
-					</nav>
-			  </header>
+        <Nav />
         <About />
-        <Skills id="skills" />
-        <Projects id="projects"  />
-        <Resume id="resume" />
-        <Contact id="contact" />
+        <Skills ref={this.skills} />
+        <Projects ref={this.projects}  />
+        <Resume ref={this.resume} />
+        <Contact ref={this.contact}/>
         <Footer />
       </div>
     )

@@ -1,16 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Nav.css';
 
 
-export default class Nav extends Component {
-	constructor(props) {
-		super(props);
-	}
+const Nav = () => {
 
-	scroll = (ref) => {
-    this.ref.current.scrollIntoView({behavior: 'smooth'})
-  }
-		render () {
+			
+
 		return ( 
 			<header className="header">
 					<div className="name-wrapper">
@@ -19,13 +14,14 @@ export default class Nav extends Component {
 					</div>
 					<nav>
 			     	  <ul className="main-nav">
-			     	  	<li onClick={() => {this.scroll(this.skillsRef)}}>Skills</li>
-				        <li onClick={() => {this.scroll(this.projectsRef)}}>Projects</li>
-								<li onClick={() => {this.scroll(this.resumeRef)}}>Resume</li>
-								<li onClick={() => {this.scroll(this.contactRef)}}>Contact</li>
+			     	  	<li onClick={() => {this.scroll(this.props.refs.skills.current)}}>Skills</li>
+				        <li onClick={() => {this.scroll(this.refs.projects.current)}}>Projects</li>
+								<li onClick={() => {this.scroll(this.refs.resume.current)}}>Resume</li>
+								<li onClick={() => {this.scroll(this.refs.contact.current)}}>Contact</li>
 			      	</ul>
 					</nav>
 			</header>
 		)
-}
-}
+		};
+
+	export default Nav;

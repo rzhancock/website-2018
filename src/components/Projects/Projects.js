@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Battle from './Battle/Battle.js';
 import Mern from './Mern/Mern.js';
 import StoneWillow from './StoneWillow/StoneWillow.js';
@@ -6,8 +6,9 @@ import StoneWillow from './StoneWillow/StoneWillow.js';
 import './Projects.css';
 
 
-export default class extends Component {
-  render() {
+const Projects = () => {
+
+
     return (
     	<section className="projects-container">
     			<div className="projects-header">
@@ -21,4 +22,5 @@ export default class extends Component {
 		</section>
     );
   }
-}
+
+export default Projects;

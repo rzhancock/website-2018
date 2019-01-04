@@ -6,11 +6,6 @@
   border-bottom: 3px #d8d8da solid;
 }
 
-.name-wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
 
 .name {
   font-family: 'Rock Salt', sans-serif;
@@ -21,24 +16,22 @@
 }
 
 nav {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+
 }
 
 .main-nav {
-  list-style: none;
-  margin-top: 5px;
-}
-
-.main-nav li {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 1em;
+  list-style: none;
 }
 
 
 .main-nav li {
+  margin: auto 1.75rem auto .25rem;
   text-decoration: none;
-  margin-right: 1em;
-  margin-left: 1em;
   color:  #7f8389;
   font-size: 30px;
   cursor: pointer;
@@ -64,3 +57,51 @@ nav {
 
   cursor: not-allowed;
 }
+
+@media only screen and (max-width : 678px) {
+  .main-nav li {
+    margin: auto 2.0rem auto 0;
+    font-size: 24px;
+  }
+
+
+}
+
+@media only screen and  (max-width : 556px) {
+  .main-nav li {
+    margin: auto 2.0rem auto 0;
+    font-size: 20px;
+  }
+
+  .name {
+    padding: .25rem;
+    font-size: 28px;
+    text-align: center;
+  }
+
+
+}
+
+@media only screen and  (max-width : 505px) {
+
+  .main-nav {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .main-nav li {
+    margin-top: .5rem;
+    font-size: 24px;
+  }
+
+  .name {
+    padding: 1rem;
+    padding-bottom: 0;
+    font-size: 28px;
+    text-align: center;
+  }
+
+
+}
+

@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
-import { FaDownload, FaLinkedin, FaGithub, FaEnvelopeSquare, FaFacebook } from 'react-icons/fa';
+import React from 'react';
+import { FaLinkedin, FaGithub, FaEnvelopeSquare, FaFacebook } from 'react-icons/fa';
 import './Contact.css';
 
 
-function Contact() {
+const Contact = () => {
+
   return (
   	<section className="contact-container">
 
@@ -38,5 +39,6 @@ function Contact() {
 		</section>
   );
 }
+
 
 export default Contact;

@@ -5,7 +5,8 @@ import resume from './Robert_Hancock.pdf';
 import './Resume.css';
 
 
-function Resume() {
+const Resume = () => {
+
   return (
   	<section className="resume-container">
 
@@ -39,5 +40,6 @@ function Resume() {
 		</section>
   );
 }
+
 
 export default Resume;
