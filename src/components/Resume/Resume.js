@@ -5,10 +5,9 @@ import resume from './Robert_Hancock.pdf';
 import './Resume.css';
 
 
-const Resume = () => {
+const Resume = React.forwardRef((props, ref) => (
 
-  return (
-  	<section className="resume-container">
+  	<section className="resume-container" ref={ref}>
 
           <div className="resume-header">
           <a  href={resume} target="_blank" alt="Download Resume" >
@@ -38,8 +37,9 @@ const Resume = () => {
               </div>
               </div>
 		</section>
-  );
-}
+  )
+);
+
 
 
 export default Resume;

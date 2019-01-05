@@ -8,6 +8,7 @@ import Resume from './Resume/Resume.js';
 import Contact from './Contact/Contact.js';
 import Footer from './Footer/Footer.js';
 import './App.css';
+import { FaArrowUp } from 'react-icons/fa';
 
 
 class App extends Component {
@@ -22,12 +23,21 @@ class App extends Component {
   }
 
   onNavClick = link => () => {
+
     const top = this[link].current.offsetTop;
     window.scrollTo({
       top,
       left: 0,
       behavior: 'smooth'
-    })
+  })
+}
+
+  backToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
   }
 
   render() {
@@ -40,7 +50,16 @@ class App extends Component {
         <Projects ref={this.projects}  />
         <Resume ref={this.resume} />
         <Contact ref={this.contact}/>
-        <Footer />
+        
+        <div className="button-top-container">
+          <button className="button-top" onClick={this.backToTop}>
+            <FaArrowUp className="FaArrow"/>
+            Back to Top
+            
+          </button>
+        </div>
+
+        <Footer onClick={this.backToTop}/>
       </div>
     )
   }

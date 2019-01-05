@@ -3,7 +3,12 @@ import './Footer.css';
 
 
 function Footer() {
+
+
   return (
+
+    
+
   	<section className="footer-container">
 
           <div className="footer-header">
@@ -12,15 +17,6 @@ function Footer() {
             </h3> 
 					</div>
 
-          <div className="footer-about-site">
-            <div className="resume-item">
-                
-            </div>
-              
-            <div>
-
-            </div>
-          </div>
 		</section>
   );
 }

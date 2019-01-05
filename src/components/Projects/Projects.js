@@ -6,11 +6,9 @@ import StoneWillow from './StoneWillow/StoneWillow.js';
 import './Projects.css';
 
 
-const Projects = () => {
+const Projects = React.forwardRef((props, ref) => (
 
-
-    return (
-    	<section className="projects-container">
+    	<section className="projects-container" ref={ref}>
     			<div className="projects-header">
 						<h3>
 							Projects and Tutorials
@@ -20,7 +18,7 @@ const Projects = () => {
 				<Mern />
 				<StoneWillow />
 		</section>
-    );
-  }
+
+ ))
 
 export default Projects;

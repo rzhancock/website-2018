@@ -10,3 +10,22 @@ body {
 h3 {
   font-weight: normal;
 }
+
+.button-top-container {
+  display: flex;
+  justify-content: center;
+  margin: 2em auto;
+  
+}
+
+.button-top {
+  border: none;
+  color: #457CB0;
+  font-family: 'Rock Salt', sans-serif;
+  cursor: pointer;
+}
+
+.FaArrow {
+  display: block;
+  margin: 0 auto;
+}

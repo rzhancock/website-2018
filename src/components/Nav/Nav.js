@@ -5,7 +5,6 @@ import './Nav.css';
 const Nav = ({ onClick }) => {
 
 
-
 		return (
 			<header className="header">
 					<div className="name-wrapper">
@@ -15,7 +14,7 @@ const Nav = ({ onClick }) => {
 					<nav>
 			     	  <ul className="main-nav">
 			     	  	<li onClick={onClick('skills')}>Skills</li>
-				        <li onClick={onClick('project')}>Projects</li>
+				        <li onClick={onClick('projects')}>Projects</li>
 								<li onClick={onClick('resume')}>Resume</li>
 								<li onClick={onClick('contact')}>Contact</li>
 			      	</ul>

@@ -3,11 +3,9 @@ import { FaLinkedin, FaGithub, FaEnvelopeSquare, FaFacebook } from 'react-icons/
 import './Contact.css';
 
 
-const Contact = () => {
+const Contact = React.forwardRef((props, ref) => (
 
-  return (
-  	<section className="contact-container">
-
+  	<section className="contact-container" ref={ref}>
           <div className="contact-header">
 						<h3>
 							Need to get in touch?
@@ -37,8 +35,8 @@ const Contact = () => {
 
             </div>
 		</section>
-  );
-}
+  )
+)
 
 
 export default Contact;
