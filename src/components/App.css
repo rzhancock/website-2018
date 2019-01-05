@@ -20,6 +20,7 @@ h3 {
 
 .button-top {
   border: none;
+  background-color: #f8f8f8;
   color: #457CB0;
   font-family: 'Rock Salt', sans-serif;
   cursor: pointer;
