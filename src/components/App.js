@@ -59,7 +59,7 @@ class App extends Component {
           </button>
         </div>
 
-        <Footer onClick={this.backToTop}/>
+        <Footer />
       </div>
     )
   }
