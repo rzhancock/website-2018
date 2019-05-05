@@ -11,11 +11,6 @@ export const favoriteQuotes = [
   {
     author: "Daniel Kahneman",
     text:
-      "If you care about being thought credible and intelligent, do not use complex language where simpler language will do."
-  },
-  {
-    author: "Daniel Kahneman",
-    text:
       "A reliable way of making people believe in falsehoods is frequent repetition, because familiarity is not easily distinguished from truth."
   },
   {
