@@ -1,10 +1,12 @@
 body {
   background: #f8f8f8;
+  scroll-behavior: smooth;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1080px;
+  scroll-behavior: smooth;
 }
 
 h3 {
@@ -15,14 +17,13 @@ h3 {
   display: flex;
   justify-content: center;
   margin: 2em auto;
-  
 }
 
 .button-top {
   border: none;
   background-color: #f8f8f8;
-  color: #457CB0;
-  font-family: 'Rock Salt', sans-serif;
+  color: #457cb0;
+  font-family: "Rock Salt", sans-serif;
   cursor: pointer;
 }
 

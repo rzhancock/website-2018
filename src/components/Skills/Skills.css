@@ -1,74 +1,103 @@
 .skills-container {
-	max-width: 1080px;
-	border-bottom: 3px #d8d8da solid;
-	margin-bottom: 2.5rem;
-	margin-left: 2rem;
+  max-width: 1080px;
+  border-bottom: 3px #d8d8da solid;
+  margin-bottom: 2.5rem;
 }
 
-.skills-header > h3{
-	text-align: center;
-	font-family: 'Arvo', sans-serif;
-	font-size: 28px;
-	color: #65686d;
-	margin-right: 1.5rem;
-	margin-bottom: 2.75rem;
+.skills-header > h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Arvo", sans-serif;
+  font-size: 28px;
+  color: #65686d;
+  margin-bottom: 2.75rem;
+}
+
+.skills-header > h4 {
+  text-align: center;
+  font-family: "Arvo", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #65686d;
+  padding-top: 20px;
 }
 
 .skills-list {
-	display: flex;
-	flex-wrap: wrap;
-	list-style-type: inherit;
-	justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 15px;
 }
 
 .skills-list li {
-	flex-basis: 15%;
-	margin: .6rem;
-	margin: auto 1rem;
-	margin-bottom: 2rem;
-	font-size: 20px;
-	text-decoration: none;
-	color: #457CB0; 
-	position: relative;
-	font-weight: bold;
+  flex-basis: 14%;
+  margin: auto 1rem;
+  margin-bottom: 2rem;
+  font-size: 20px;
+  text-decoration: none;
+  color: #457cb0;
+  font-weight: 550;
 }
 
-@media only screen and (max-width : 845px) {
-	.skills-list li {
-		flex-basis: 12%;
-		margin: .6rem;
-		margin: 1em;
-		margin-bottom: 2rem;
-		font-size: 19px;
-
-	}
+.certs {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media only screen and (max-width : 678px) {
-	.skills-list li {
-		flex-basis: 10%;
-		margin: auto 1em;
-		margin-bottom: 2rem;
-		font-size: 17px;
-
-	}
-
+.certs a {
+  text-decoration: none;
+  color: rgb(110, 109, 109);
+  margin: 0;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #a7a7a7;
 }
 
-@media only screen and  (max-width : 600px) {
-	.skills-list {
-		display: flex;
-		flex-wrap: wrap;
-		list-style-type: inherit;
-		justify-content: center;
-	}
-
-	.skills-list li {
-		flex-basis: 36%;
-		margin-bottom: 1rem;
-		margin-left: 1.25rem;
-		font-size: 20px;
-	}
+.fcc {
+  max-height: 20px;
+  width: auto;
+  margin: 0 0 0 15px;
+  margin-bottom: -3px;
 }
 
+#fcc-link {
+  padding-bottom: 12px;
+  border: none;
+}
 
+@media only screen and (max-width: 845px) {
+  .skills-list li {
+    flex-basis: 12%;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 678px) {
+  .skills-list li {
+    flex-basis: 10%;
+    margin: auto 1em;
+    margin-bottom: 2rem;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: inherit;
+    justify-content: center;
+  }
+
+  .skills-list li {
+    flex-basis: 36%;
+    margin-bottom: 1rem;
+    margin-left: 1.25rem;
+    font-size: 20px;
+  }
+}

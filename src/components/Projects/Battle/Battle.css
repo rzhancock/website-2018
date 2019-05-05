@@ -1,91 +1,89 @@
 .battle-wrapper {
-	margin-bottom: 15px;
-	display: flex;
-	flex-direction: column;
-	border-radius: 5px;
-	box-shadow: inset 0 0 3px #457CB0;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: inset 0 0 3px #457cb0;
 }
 
 .battle-title {
-	color: #30567b;
-	padding: 0 15px;
-	margin: 15px 0;
-	font-size: 20px;
+  color: #476d93;
+  padding: 0 15px;
+  margin: 15px 0;
+  font-size: 22px;
 }
 
 .battle-description {
-	margin-top: 0;
-	color: #46484c;
-	padding: 0 15px;
-	font-size: 18px;
+  margin-top: 0;
+  color: #46484c;
+  padding: 0 15px;
+  font-size: 18px;
 }
 
 .battle-description > a {
-	text-decoration: none;
-	color: #C2392A;
+  text-decoration: none;
+  color: #c2392a;
 }
 
 .battle-demo {
-	color: #25415a;
-	font-weight: bold;
-	text-decoration: none;
-	padding-left: 15px;
-	margin: 0;
+  color: #25415a;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 15px;
+  margin: 0;
 }
 
 .battle-demo > a {
-	color: #2f6696;
-	text-decoration: none;
-	font-size: 18px;
-	margin: 0;
+  color: #2f6696;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0;
 }
 
 .battle-images {
-	display: inline-flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding: 15px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
 }
 
 .battle-images > img {
-	flex-basis: 49%;
-	max-width: 515px;
-	max-height: 320px;
-	box-shadow: 0 0 3px #6a6c6f;
+  flex-basis: 49%;
+  max-width: 515px;
+  max-height: 320px;
+  box-shadow: 0 0 3px #6a6c6f;
 }
 
 /*Media Queries*/
 
-@media only screen and (max-width : 1080px) {
-	.battle-wrapper {
-		margin: 20px;
-	}
+@media only screen and (max-width: 1080px) {
+  .battle-wrapper {
+    margin: 20px;
+  }
 }
 
-@media only screen and (max-width : 678px) {
-	.battle-wrapper {
-		text-align: center;
-		margin: 20px;
-	}
+@media only screen and (max-width: 678px) {
+  .battle-wrapper {
+    text-align: center;
+    margin: 20px;
+  }
 
-	.battle-images {
-		flex-direction: column;
-		justify-content: center;
-		
-	}
+  .battle-images {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-	.battle-images > img {
-		margin: 10px auto;
-		max-width: 412px;
-		max-height: 256px;
-	}
-
+  .battle-images > img {
+    margin: 10px auto;
+    max-width: 412px;
+    max-height: 256px;
+  }
 }
 
-@media only screen and  (max-width : 600px) {
-	.battle-images > img {
-		margin: 10px auto;
-		max-width: 330px;
-		max-height: 205px;
-	}
+@media only screen and (max-width: 600px) {
+  .battle-images > img {
+    margin: 10px auto;
+    max-width: 330px;
+    max-height: 205px;
+  }
 }
