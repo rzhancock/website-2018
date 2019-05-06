@@ -20,7 +20,11 @@ function Mern() {
         react-transition-group Node module on the front end.
       </p>
       <p className="mern-demo">
-        <a href="http://mern.roberthancock.net" target="_blank">
+        <a
+          href="http://mern.roberthancock.net"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Live Demo
         </a>{" "}
         | <a href="https://github.com/rzhancock/mern_tutorial">GitHub</a>

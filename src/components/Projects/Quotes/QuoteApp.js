@@ -250,6 +250,24 @@ export default class QuoteApp extends Component {
           provided by Unpslash, a community-driven image repository, using their
           free API.
         </p>
+        <p className="quote-github-visible">
+          <a href="https://github.com/rzhancock/Slideshow-Quote-Generator">
+            View GitHub Repo
+          </a>
+        </p>
+        <p className="quote-demo">
+          <a
+            href="https://roberthancock.net/quotes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Demo
+          </a>{" "}
+          |{" "}
+          <a href="https://github.com/rzhancock/Slideshow-Quote-Generator">
+            GitHub
+          </a>
+        </p>
         <div className="wrapper" style={{ backgroundColor: "#dbdbdb" }}>
           <div className="buttons">
             <div className="previous">

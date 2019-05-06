@@ -15,6 +15,7 @@ function Battle() {
         <a
           href="https://tylermcginnis.com/courses/react-fundamentals/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           {" "}
           React Fundamentals{" "}
@@ -24,6 +25,7 @@ function Battle() {
           href="https://twitter.com/tylermcginnis"
           className="tmcginnis"
           target="_blank"
+          rel="noopener noreferrer"
         >
           {" "}
           Tyler McGiniss
@@ -32,7 +34,11 @@ function Battle() {
         Webpack, Babel, React Router v4, and Flexbox.
       </p>
       <p className="battle-demo">
-        <a href="https://roberthancock.net/github-battle" target="_blank">
+        <a
+          href="https://roberthancock.net/github-battle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Live Demo
         </a>{" "}
         | <a href="https://github.com/rzhancock/github-battle">GitHub</a>

@@ -129,6 +129,37 @@
   text-shadow: 0 0 8px #999;
 }
 
+.quote-demo {
+  color: #25415a;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 15px;
+  margin: 0;
+  display: none;
+}
+
+.quote-demo > a {
+  color: #2f6696;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0;
+}
+
+.quote-github-visible {
+  color: #25415a;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.quote-github-visible > a {
+  color: #2f6696;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0;
+}
+
 @media screen and (max-width: 850px) {
   .quote-container {
     height: 450px;
@@ -137,6 +168,14 @@
 
 @media screen and (max-width: 780px) {
   .wrapper {
+    display: none;
+  }
+
+  .quote-demo {
+    display: inherit;
+  }
+
+  .quote-github-visible {
     display: none;
   }
 }
