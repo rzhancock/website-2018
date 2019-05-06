@@ -87,3 +87,13 @@
     max-height: 205px;
   }
 }
+
+@media only screen and (max-width: 415px) {
+  .battle-images {
+    display: none;
+  }
+
+  .battle-demo {
+    padding-bottom: 15px;
+  }
+}
